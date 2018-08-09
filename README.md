@@ -12,3 +12,6 @@
 2.  Input Now thickness(or number you want to save) or q to finish programm
 3.  Choose value from list(you can change this in `main.py`)
 4.  Terminal shows which your data is `champion` or `lowest` or `middle` 
+
+## Function
+- Keep your session number so you can restart process if your process is interrupted
