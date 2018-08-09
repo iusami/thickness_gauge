@@ -1,2 +1,12 @@
 # thickness_gauge
-To keep thickness data to json
+- To keep thickness data (or your any input int or float) to json
+- Get maximum and minimum data index and save to json
+
+# How to use
+
+## Requirement
+- python 3.5
+
+## Usage
+1. `python3 main.py`
+2.  Input Now thickness(or number you want to save) or q to finish programm
