@@ -24,7 +24,11 @@ class measure_and_save:
             file.close()
         else:
             savejson = []
-
+        if not os.path.exists(self.champ_and_lower):
+            file = open(self.champ_and_lower,"w")
+            savejson = {"champ_index":0,"lowest_index":0}
+            json.dump(savejson, file, indent=2, sort_keys =True)
+            file.close()
         OK_flag = "n"
         while(True):
             print("")
